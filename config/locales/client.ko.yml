@@ -1,0 +1,57 @@
+en:
+  js:
+    add_event:
+      btn_label: "Add Date and Time"
+      modal_title: Date and Time
+      event_start: Start
+      event_end: End
+      event_date: Date
+      event_time: Time
+      event_add: Done
+      event_clear: Clear
+      end_enabled: "Include event end"
+      all_day: "All day"
+      timezone: "Timezone"
+      no_timezone: "Select a timezone"
+    category:
+      enable_events: "Allow events to be added to topics in this category"
+      enable_events_agenda: "Show an agenda topic list in this category"
+      enable_events_calendar: "Show a calendar topic list in this category"
+      events_agenda_filter_closed: "Filter closed event topics from the Agenda in this category"
+      events_min_trust_to_create: "Min trust to create event in this category"
+      events_event_label_no_text: "No text on add event buttons in this category."
+    composer:
+      tip:
+        add_event: "Add a date, time and location for your event."
+    event_list:
+      title: '{{categoryName}}'
+      about: '지역 이벤트들'
+      no_results: "다가오는 이벤트가 없습니다."
+      create: "Create Event"
+    filters:
+      agenda:
+        title: "진행중"
+        help: "List events in ascending chronological order according to the start datetime."
+      calendar:
+        title: "Calendar"
+        help: "Show events in a calendar"
+    add_to_calendar:
+      label: "Add to Calendar"
+      google: "Google Calendar"
+      ics: ".ics File"
+      default_details: "Event details: {{url}}"
+    topics:
+      none:
+        agenda: "진행중인 이벤트가 없습니다."
+      bottom:
+        agenda: "더 이상 진행중인 이벤트가  없습니다."
+    events_calendar:
+      today: "오늘"
+      hidden: "{{count}}+"
+      subscribe: "Subscribe"
+      ical: "iCal"
+      rss: "RSS"
+    user:
+      events_calendar:
+        label: "Calendar"
+        first_day_week: "Start week on"
