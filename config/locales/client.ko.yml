@@ -31,7 +31,7 @@ ko:
     filters:
       agenda:
         title: "진행중"
-        help: "List events in ascending chronological order according to the start datetime."
+        help: "이벤트들을 시간순으로 정렬합니다."
       calendar:
         title: "Calendar"
         help: "Show events in a calendar"
