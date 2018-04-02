@@ -30,8 +30,8 @@ en:
       create: "Create Event"
     filters:
       agenda:
-        title: "Agenda"
-        help: "List events in ascending chronological order according to the start datetime."
+        title: "Ongoing"
+        help: "List ongoing events in ascending chronological order according to the start datetime."
       calendar:
         title: "Calendar"
         help: "Show events in a calendar"
@@ -42,9 +42,9 @@ en:
       default_details: "Event details: {{url}}"
     topics:
       none:
-        agenda: "There are no agenda topics."
+        agenda: "There are no ongoing events."
       bottom:
-        agenda: "There are no more agenda topics."
+        agenda: "There are no more ongoing events."
     events_calendar:
       today: "Today"
       hidden: "{{count}} more"
