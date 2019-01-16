@@ -50,7 +50,7 @@ let eventLabel = function(event, args = {}) {
   const shortFormat = Discourse.SiteSettings.events_event_label_short_format;
   const shortOnlyStart = Discourse.SiteSettings.events_event_label_short_only_start;
 
-  let label = `<i class='fa fa-${icon}'></i>`;
+  let label = `<i class='fas fa-${icon}'></i>`;
 
   if (!args.mobile) {
     const { start, end, allDay } = setupEvent(event, { displayInUserTimezone: args.displayInUserTimezone });
