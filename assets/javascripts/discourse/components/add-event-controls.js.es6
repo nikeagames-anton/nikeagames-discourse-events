@@ -32,7 +32,7 @@ export default Ember.Component.extend({
   @computed()
   addLabel() {
     const icon = Discourse.SiteSettings.events_event_label_icon;
-    const iconHtml = `<i class='fa fa-${icon}'></i>`;
+    const iconHtml = `<i class='fas fa-${icon}'></i>`;
     return this.site.isMobileDevice ? iconHtml : I18n.t('add_event.btn_label', { iconHtml });
   },
 
